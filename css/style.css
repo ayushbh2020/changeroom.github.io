@@ -157,6 +157,24 @@ button:focus {
     padding-left: 0px;
     padding-right: 0px;
 }
+.subtext{
+    font-size: 15px;
+}
+.appImg{
+    border:1px grey solid; 
+    border-radius: 5px;
+    max-width: 100%;
+}
+.errorImg{
+    border:1px rgb(216, 216, 216) solid; 
+    border-radius: 5px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.docSteps{
+    margin-bottom: 25px;
+}
+
 
 @media (min-width: 1200px) {
     .container {
