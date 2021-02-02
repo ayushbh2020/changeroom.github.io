@@ -270,7 +270,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-    font: 500 12px/100px "Roboto", sans-serif;
+    font: 500 14px/100px "Roboto", sans-serif;
     text-transform: capitalize;
     color: #fff;
     padding: 0px;
@@ -523,6 +523,7 @@ button:focus {
     color: #fff;
     font-family: "Roboto", sans-serif;
     margin-bottom: 35px;
+    font-size: 16px;
 }
 
 .home_banner_area .banner_inner .banner_content .banner_map_img {
@@ -4526,11 +4527,12 @@ mark.age{
    ========================================================================== */
    #partner {
     background: #ffffff;
+    
   }
   
   #partner .partner-item-wrapper {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     -moz-transition: all .6s ease;
     -webkit-transition: all .6s ease;
     transition: all .6s ease;
@@ -4540,20 +4542,14 @@ mark.age{
     width: 70%;
     opacity: 0.5;
   }
-  #one{
-    /* position: relative; */
-    top: 10px; 
-  }
-  #two{
-    /* position: relative; */
-    top: -15px; 
-  }
-
-  #four{
-    /* position: relative; */
-    top: 15px; 
-  }
   
+
+  #partner #partner-scroller{
+
+    margin: auto; 
+    max-width: 100%;
+
+  }
   #partner #partner-scroller img:hover {
     opacity: 1.0;
   }
@@ -4564,8 +4560,14 @@ mark.age{
   #partner-scroller{
       display: flex;
       align-items: center;
+      
   }
 
+  #partner.partner{
+    text-align: center;
+  }
+
+  
   @media only screen AND (max-width: 736px) { 
     .partner {
       display: none; 
