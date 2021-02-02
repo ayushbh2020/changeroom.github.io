@@ -482,9 +482,9 @@ button:focus {
 
 .home_banner_area {
     z-index: 1;
-    background-image: -moz-linear-gradient(270deg, #1d9600 50%, rgb(232, 245, 220) 100%);
-    background-image: -webkit-linear-gradient(270deg, #1d9600 50%, rgb(229, 245, 220) 100%);
-    background-image: -ms-linear-gradient(270deg,  #1d9600 50%, rgb(235, 245, 220) 100%);
+    background-image: -moz-linear-gradient(270deg, #1d9600 20%, rgb(232, 245, 220) 100%);
+    background-image: -webkit-linear-gradient(270deg, #1d9600 20%, rgb(229, 245, 220) 100%);
+    background-image: -ms-linear-gradient(270deg,  #1d9600 20%, rgb(235, 245, 220) 100%);
 }
 
 .home_banner_area h2 {
@@ -3921,9 +3921,9 @@ h6 {
 }
 
 #homepic {
-    max-width: 105%;
+    max-width: 90%;
     height: auto;
-    padding-left: 10%;
+    padding-left: 30%;
 }
 
 
