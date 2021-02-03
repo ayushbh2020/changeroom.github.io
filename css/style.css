@@ -350,9 +350,9 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-    background-image: -moz-linear-gradient(270deg, #1d9600 100%, rgb(235, 245, 220) 100%);
-    background-image: -webkit-linear-gradient(270deg, #1d9600 100%, rgb(235, 245, 220) 100%);
-    background-image: -ms-linear-gradient(270deg, #1d9600 100%, rgb(235, 245, 220) 100%);
+    background-image: -moz-linear-gradient(270deg, #35CE77 100%, rgb(235, 245, 220) 100%);
+    background-image: -webkit-linear-gradient(270deg, #35CE77 100%, rgb(235, 245, 220) 100%);
+    background-image: -ms-linear-gradient(270deg, #35CE77 100%, rgb(235, 245, 220) 100%);
     color: #fff;
 }
 
@@ -390,7 +390,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #1d9600;
+    background: #35CE77;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -482,9 +482,15 @@ button:focus {
 
 .home_banner_area {
     z-index: 1;
+<<<<<<< HEAD
     background-image: -moz-linear-gradient(270deg, #1d9600 20%, rgb(232, 245, 220) 100%);
     background-image: -webkit-linear-gradient(270deg, #1d9600 20%, rgb(229, 245, 220) 100%);
     background-image: -ms-linear-gradient(270deg,  #1d9600 20%, rgb(235, 245, 220) 100%);
+=======
+    background-image: -moz-linear-gradient(270deg, #73d79c 50%, rgb(232, 245, 220) 100%);
+    background-image: -webkit-linear-gradient(270deg, #73d79c 50%, rgb(229, 245, 220) 100%);
+    background-image: -ms-linear-gradient(270deg,  #73d79c 50%, rgb(235, 245, 220) 100%);
+>>>>>>> parent of 007636c (Temporary Website Updates)
 }
 
 .home_banner_area h2 {
@@ -607,7 +613,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 430px;
-    background: #1d9600;
+    background: rgba(53, 206, 119, 0.74);
     z-index: 1;
 }
 
@@ -3086,7 +3092,7 @@ h6 {
 
 .single-defination h5 {
     font-size: 30px;
-    color: #1d9600;
+    color: #35CE77;
     padding-left: 12%;
     padding-bottom: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -3443,7 +3449,7 @@ h6 {
 
 .main_btn {
     display: inline-block;
-    background-image: linear-gradient(to right, #1d9600 0%, #1d9600 100%);
+    background-image: linear-gradient(to right, #35CE77 0%, #35CE77 100%);
     background-size: 200% auto;
     padding: 0px 35px;
     color: #fff;
@@ -3490,7 +3496,7 @@ h6 {
 .submit_btn {
     width: auto;
     display: inline-block;
-    background-image: linear-gradient(to right, #1d9600 40%, rgb(232, 245, 220) 100%);
+    background-image: linear-gradient(to right, #73d79c 40%, rgb(232, 245, 220) 100%);
     background-size: 200% auto;
     padding: 0px 50px;
     color: #fff;
@@ -3691,15 +3697,15 @@ h6 {
 }
 
 .work_item:hover i {
-    background-image: -moz-linear-gradient(0deg, #1d9600 0%, #1d9600 100%) ;
-    background-image: -webkit-linear-gradient(0deg,#1d9600 0%, #1d9600 100%);
-    background-image: -ms-linear-gradient(0deg, #1d9600 0%, #1d9600 100%);
+    background-image: -moz-linear-gradient(0deg, #35CE77 0%, #35CE77 100%) ;
+    background-image: -webkit-linear-gradient(0deg,#35CE77 0%, #35CE77 100%);
+    background-image: -ms-linear-gradient(0deg, #35CE77 0%, #35CE77 100%);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
 
 .work_item:hover h4 {
-    color: #1d9600;
+    color: #35CE77;
 }
 
 
@@ -3822,9 +3828,9 @@ h6 {
 }
 
 .made_life_inner .nav.nav-tabs li a.active {
-    background-image: -moz-linear-gradient(0deg, #1d9600 0%, #1d9600 100%);
-    background-image: -webkit-linear-gradient(0deg, #1d9600 0%, #1d9600 100%);
-    background-image: -ms-linear-gradient(0deg, #1d9600 0%, #1d9600 100%);
+    background-image: -moz-linear-gradient(0deg, #35CE77 0%, #35CE77 100%);
+    background-image: -webkit-linear-gradient(0deg, #35CE77 0%, #35CE77 100%);
+    background-image: -ms-linear-gradient(0deg, #35CE77 0%, #35CE77 100%);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
@@ -3935,7 +3941,7 @@ h6 {
 ============================================================================================ */
 
 .impress_area {
-    background:#1d9600;
+    background: rgba(53, 206, 119, 0.7);
 }
 
 .impress_area .impress_inner {
@@ -4189,9 +4195,9 @@ h6 {
 }
 
 .price_item:hover .price_head {
-    background-image: -moz-linear-gradient(0deg, rgba(53, 206, 119, 1) 0%, #1d9600);
-    background-image: -webkit-linear-gradient(0deg, rgba(53, 206, 119, 1) 0%, #1d9600);
-    background-image: -ms-linear-gradient(0deg, rgba(53, 206, 119, 1) 0%,#1d9600);
+    background-image: -moz-linear-gradient(0deg, rgba(53, 206, 119, 1) 0%, rgba(53, 206, 119, 0.74)100%);
+    background-image: -webkit-linear-gradient(0deg, rgba(53, 206, 119, 1) 0%, rgba(53, 206, 119, 0.74)100%);
+    background-image: -ms-linear-gradient(0deg, rgba(53, 206, 119, 1) 0%, rgba(53, 206, 119, 0.74) 100%);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -4202,9 +4208,9 @@ h6 {
 }
 
 .price_item:hover .price_footer {
-    background-image: -moz-linear-gradient(rgba(53, 206, 119, 1) 0%, #1d9600);
-    background-image: -webkit-linear-gradient(0deg,rgba(53, 206, 119, 1) 0%, #1d9600);
-    background-image: -ms-linear-gradient(rgba(53, 206, 119, 1) 0%, #1d9600);
+    background-image: -moz-linear-gradient(rgba(53, 206, 119, 1) 0%, rgba(53, 206, 119, 0.74)100%);
+    background-image: -webkit-linear-gradient(0deg,rgba(53, 206, 119, 1) 0%, rgba(53, 206, 119, 0.74)100%);
+    background-image: -ms-linear-gradient(rgba(53, 206, 119, 1) 0%, rgba(53, 206, 119, 0.74)100%);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -4244,7 +4250,7 @@ h6 {
 }
 
 .f_title h3 {
-    color: #1d9600;
+    color: rgb(53, 206, 119);
     font-size: 20px;
     font-weight: bold;
     font-family: "raleway", sans-serif;
@@ -4260,7 +4266,7 @@ h6 {
 }
 
 .ab_widget p a {
-    color: #1d9600;
+    color: rgb(53, 206, 119);
 }
 
 .ab_widget p+p {
@@ -4323,7 +4329,7 @@ h6 {
 
 .news_widget .input-group .sub-btn {
     border-radius: 0px;
-    background: #1d9600;
+    background: rgba(53, 206, 119, 0.74);
     outline: none !important;
     box-shadow: none !important;
     padding: 0px;
@@ -4401,7 +4407,7 @@ h6 {
     width: 4.75rem;
     height: 4.75rem;
     border-radius: 50%;
-    background: #1d9600;
+    background: #35CE77;
     animation: pulse-border 1500ms ease-out infinite;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -4418,7 +4424,7 @@ h6 {
     width: 4.375rem;
     height: 4.375rem;
     border-radius: 50%;
-    background: #1d9600;
+    background: #35CE77;
     transition: all 200ms;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
