@@ -3561,7 +3561,7 @@ h6 {
     background: white;
     color: #222222;
     font-family: "Roboto", sans-serif;
-    width: 134px;
+    width: 170px;
     font-size: 14px;
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -4540,7 +4540,6 @@ mark.age{
   .row{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
   justify-content: center;
   }
   
