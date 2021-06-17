@@ -255,9 +255,35 @@
 @media (max-width:600px){
 	
 }
-@media (max-width:575px){
+@media (max-width:975px){
+	.featuresMobile{
+		display:flex;
+		
+	}
+	.row{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
 	.top_menu {
 		display: none;
+	}
+	.left_side_text{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-right: 0px;
+	}
+	.made_life_text p{
+		width: 100%;
+		text-align: center;
+	}
+	.made_life_text h3{
+		text-align: center
+	}
+	.made_life_text .col-lg-6{
+		display:flex;
+		justify-content: center;
 	}
 	.cards-1 .card{
 		margin-bottom: 0;
