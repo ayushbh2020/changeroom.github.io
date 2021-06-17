@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
     <link rel="stylesheet" href="vendors/animate-css/animate.css">
     <!-- main css -->
+    <link href="https://fonts.googleapis.com/css?family=Francois+One"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito"
+    rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -59,7 +63,7 @@
 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item"><a target="_blank" href="https://apps.shopify.com/changeroom-marketplace" class="tickets_btn">Download Shopify App</a></li>
+                        <li class="nav-item"><a target="_blank" href="https://apps.shopify.com/changeroom-marketplace" class="tickets_btn">For Brands</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,7 +74,7 @@
 
     <!--================Home Banner Area =================-->
     <section class="banner_area">
-        <div class="banner_inner d-flex align-items-center">
+        <div  style="background-image: url('img/Mobile.png'); background-repeat: no-repeat; background-size: cover;  background-position: 50%, 20%;" class="banner_inner d-flex align-items-center">
             <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
                 data-background=""></div>
             <div class="container">
@@ -86,7 +90,7 @@
     </section>
     <!--================End Home Banner Area =================-->
     <!--================Screen Area =================-->
-    <section class="made_life_area text-center p_120" style="background-color: white">
+    <section class="made_life_area text-center p_120" style="background-color: #F1EDE2">
         <div class="container">
             <div class="main_title">
                 <h2>What is ChangeRoom's Marketplace?</h2>
@@ -102,7 +106,7 @@
     <!--================End Screen Area =================-->
 
     <!--================Work Area =================-->
-    <section class="work_area p_120" style="background-color:rgba(53, 206, 119, 0.137)">
+    <!-- <section class="work_area p_120" style="background-color:rgba(53, 206, 119, 0.137)">
         <div class="container">
             <div class="main_title">
                 <h2>Our Sustainability Standards</h2>
@@ -142,12 +146,12 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
     <!--================End Work Area =================-->
     <!--================Why ChangeRoom Area =================-->
 
         <!--================Made Life Area =================-->
-        <section class="made_life_area made_white p_120">
+        <!-- <section class="made_life_area made_white p_120">
             <div class="container">
                 <div class="made_life_inner">
                     <div class="tab-content" id="myTabContent">
@@ -175,18 +179,18 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--================End Made Life Area =================-->
 
       <!--================End Why ChangeRoom Area =================-->
   
 
     <!--================Made Life Area =================-->
-    <section class="made_life_area p_120">
+    <section class="made_life_area p_120"  style="background-color: #21730D">
         <div class="container">
             <div class="main_title">
-                <h2>Mobile Features</h2>
-                <p>Our latest mobile features and tools allow for a smooth and personalized user<br>experience for all customers.</p>
+                <h2 style="color:white">Mobile Features</h2>
+                <p style="color:white"> Our latest mobile features and tools allow for a smooth and personalized user experience.</p>
             </div>
             <div class="made_life_inner">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -196,7 +200,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="home-tab" data-toggle="tab" href="#hom" role="tab" aria-controls="home"
-                            aria-selected="true">Profiles</a>
+                            aria-selected="true">Recommendations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
@@ -212,18 +216,21 @@
                     <div class="tab-pane fade" id="hom" role="tabpanel" aria-labelledby="home-tab">
                         <div class="row made_life_text">
                             <div class="col-lg-6">
-                                <div class="left_side_text">
-                                    <h3>02 <br />Profile Creation</h3>
-                                    <h6>Multi-Profile Creation Capabilities</h6>
+                                <div class="left_side_text mobile_features">
+                                    <h3>02 <br />Recommendations</h3>
+                                    <!-- <h6>Multi-Profile Creation Capabilities</h6> -->
                                     <p>Create more profiles to easily shop for friends and family. This allows users to
                                         shop for clothing exclusively personalized to their interests.
                                     </p>
-                                    <a class="main_btn" href="contact">Get Started Now</a>
+                                    <div style="margin-top: 20px;">
+                                        <a  href="https://play.google.com/store/apps/details?id=com.changeroomapp" target="_blank"> <img class="app_btn2"  src="img/GooglePlay.png" alt=""></a>
+                                        <a  href="https://apps.apple.com/ca/app/changeroom-marketplace/id1531590316" target="_blank"> <img  class="app_btn2" src="img/AppleAppstore.png" alt=""></a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="chart_img">
-                                    <img class="img-fluid" id="mobile_features" src="img/j2.PNG" alt="">
+                                    <img class="img-fluid" id="mobile_features" src="img/Reco.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -231,13 +238,16 @@
                     <div class="tab-pane fade" id="edge" role="tabpanel" aria-labelledby="edge-tab">
                         <div class="row made_life_text">
                             <div class="col-lg-6">
-                                <div class="left_side_text">
+                                <div  class="left_side_text mobile_features">
                                     <h3>04 <br />Full Checkout</h3>
-                                    <h6>In-App Checkout</h6>
-                                    <p>Manages the full checkout process on behalf of brands with payments directly
-                                        going from users to each respective brand.</p>
-                                    <a class="main_btn" href="contact">Get Started Now</a>
-                                </div>
+                                    <!-- <h6>In-App Checkout</h6> -->
+                                    <p>We manage the full checkout process on behalf of brands with payments directly
+                                        going from you to each respective brand.</p>
+                                        <div style="margin-top: 20px;">
+                                        <a  href="https://play.google.com/store/apps/details?id=com.changeroomapp" target="_blank"> <img class="app_btn2"  src="img/GooglePlay.png" alt=""></a>
+                                        <a  href="https://apps.apple.com/ca/app/changeroom-marketplace/id1531590316" target="_blank"> <img  class="app_btn2" src="img/AppleAppstore.png" alt=""></a>
+                                        </div>
+                                    </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="chart_img">
@@ -249,12 +259,15 @@
                     <div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="row made_life_text">
                             <div class="col-lg-6">
-                                <div class="left_side_text">
+                                <div class="left_side_text mobile_features">
                                     <h3>01<br />Shop Locally</h3>
-                                    <h6>Local Shopping Options</h6>
-                                    <p>Explore brands close to you and support local business owners online. This is
-                                        especially important during a pandemic and the general shift to e-commerce.</p>
-                                    <a class="main_btn" href="contact">Get Started Now</a>
+                                    <!-- <h6>Local Shopping Options</h6> -->
+                                    <p>Explore brands close to you and support local business owners online.</p>
+                                        <div style="margin-top: 20px;">
+                                            <a  href="https://play.google.com/store/apps/details?id=com.changeroomapp" target="_blank"> <img class="app_btn2"  src="img/GooglePlay.png" alt=""></a>
+                                            <a  href="https://apps.apple.com/ca/app/changeroom-marketplace/id1531590316" target="_blank"> <img  class="app_btn2" src="img/AppleAppstore.png" alt=""></a>
+                                        </div>
+                                    
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -267,14 +280,16 @@
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="row made_life_text">
                             <div class="col-lg-6">
-                                <div class="left_side_text">
+                                <div  class="left_side_text mobile_features">
                                     <h3>03 <br />Brand Page</h3>
                                     <h6></h6>
                                     <p>
-                                        Since there isn't a standard for sustainability, users are able to learn about the values of the brands on our marketplace and can 
-                                        make their own purchasing decisions. This is part of our initiative to stay transparent with users.
+                                        Find brands that meet your sustainable values, without having to do the extensive research. This is part of our initiative to stay transparent with users.
                                     </p>
-                                    <a class="main_btn" href="contact">Get Started Now</a>
+                                    <div style="margin-top: 20px;">
+                                        <a  href="https://play.google.com/store/apps/details?id=com.changeroomapp" target="_blank"> <img class="app_btn2"  src="img/GooglePlay.png" alt=""></a>
+                                        <a  href="https://apps.apple.com/ca/app/changeroom-marketplace/id1531590316" target="_blank"> <img  class="app_btn2" src="img/AppleAppstore.png" alt=""></a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -358,69 +373,68 @@
 
        <!--================Why ChangeRoom Area =================-->
 
-    <section class="price_area p_120 text-center">
-        <div class="container">
-          <div class="main_title">
-            <h2>Why ChangeRoom?</h2>
-          </div>
-            <div class="price_inner row">
-                <div class="col-md-6" style="margin-bottom: 20px;">
-                    <div class="price_item">
-                    <div class="price_head">
-                        <h3>Increase Sales</h3>
-                    </div>
-                    <div class="price_body" style="padding: 30px 10px;">
-                            <h4 style="color:#5c5c5c; font-weight: normal">
-                           Draw eco-conscious customers to your apparel brand who are invested in ethical and sustainable clothing
-                            </h4>
-                    </div>
-                    </div>
-                </div> 
-                <div class="col-md-6" style="margin-bottom: 20px">
-                    <div class="price_item" >
-                    <div class="price_head">
-                        <h3>Inventory Management</h3>
-                    </div>
-                    <div class="price_body" style="padding: 30px 10px;">
-                        <h4 style="color:#5c5c5c; font-weight: normal">
-                            Products sold on our marketplace uses the same inventory as your online store, no need to split your inventory. 
-                         </h4>
-                    </div>
-                    </div>
-                </div>
-    
-                <div class="col-md-6" style="margin-bottom: 20px" >
-                <div class="price_item">
-                    <div class="price_head">
-                    <h3>Higher Conversions</h3>
-                    </div>
-                    <div class="price_body" style="padding: 30px 10px;">
-                        <h4 style="color:#5c5c5c; font-weight: normal">
-                            Our advancements in providing a more personalized shopping experience through machine learning, allow for higher conversions for your brand
+  <section class="partner">
 
-                        </h4>
-                    </div>
-                </div>
+    <div id="partner" class="partner">
+        <h2 style="text-align: center; margin-bottom: 40px;">Brand Partnerships</h2>
+
+        <!-- <h4 style="text-align: center;margin-bottom: 40px;">SUPPORTED BY</h4> -->
+
+        <!-- Container Ends -->
+        <div class="container">           
+            <!-- Row and Scroller Wrapper Starts -->
+           <div class="row" style="align-items: center;align-items: center;" id="partner-scroller" >
+
+                <div id="one" class="partner-item-wrapper">
+                 <img src="img/Ungalli.png " alt="">
                 </div>
 
-                <div class="col-md-6" style="margin-bottom: 20px;">
-                    <div class="price_item">
-                        <div class="price_head">
-                        <h3>Easy Integration </h3>
-                        </div>
-                        <div class="price_body" style="padding: 30px 10px;">
-                            <h4 style="color:#5c5c5c; font-weight: normal">
-                            We partnered with Shopify to allow for an easy integration of our marketplace with your store. The whole app can be setup in under 30 minutes on the Shopify admin.
-                        </h4>
-                        </div>
-                    </div>
+                <div id="two" class="partner-item-wrapper">
+                    <img src="img/DuffielDesign.png"  alt="">
                 </div>
-    
+                <div id="three" class="partner-item-wrapper">
+                <img src="img/Uppdoo2.png" alt="">
+                </div>
+               
+                <!-- <div id="five" class="partner-item-wrapper">
+                    <a href="https://www.ottawabot.ca/" target="_blank"><img src="img/im5.png" alt=""></a>
+                </div> -->
+                <div id="three" class="partner-item-wrapper">
+                  <img src="img/SariKNOTSari.png" alt=""> 
+                </div>
+                <div id="one" class="partner-item-wrapper">
+                <img src="img/Mettamade.png " alt="">
+                </div>
+                <div id="two" class="partner-item-wrapper">
+                <img src="img/TheGoodTee.png" alt="">
+                </div>
+                <div id="four" class="partner-item-wrapper">
+                <img src="img/ChicMadeConsciously.png" alt="">
+                </div>
+             
+                <div id="four" class="partner-item-wrapper">
+                   <img src="img/Okayok.png" alt="">
+                </div>
+                <div id="four" class="partner-item-wrapper">
+                    <img src="img/ChatreusseStyle.png" alt="">
+                </div>
+                <div id="two" class="partner-item-wrapper">
+                    <img src="img/Atelier.png" alt="">
+                </div>
+                <div id="one" class="partner-item-wrapper">
+                    <img src="img/BraveSoles.png" alt="">
+                </div>
+                 
+                <div id="four" class="partner-item-wrapper">
+                       <img src="img/CedarAndVine.png" alt="">
+                </div>
+                   
                
             </div>
+          
         </div>
-
-      </section>
+    </div>
+    </section>
       <!--================End Why ChangeRoom Area =================-->
 
     <!--================End Work Area =================-->
@@ -434,8 +448,10 @@
         <div class="container">
             <div class="impress_inner">
                 <h2>Impressed by our Mobile Application?</h2>
-                <p>Download our app of the Shopify Appstore, our integration is quick, thanks to our partnership with Shopify. </p>
-                <a class="banner_btn2"target="_blank" href="https://apps.shopify.com/changeroom-marketplace">Download App</a>
+                <p>Download our app of the Applestore or Google Playstore </p>
+
+                <a  href="https://play.google.com/store/apps/details?id=com.changeroomapp" target="_blank"> <img class="app_btn2"  src="img/GooglePlay.png" alt=""></a>
+                <a  href="https://apps.apple.com/ca/app/changeroom-marketplace/id1531590316" target="_blank"> <img  class="app_btn2" src="img/AppleAppstore.png" alt=""></a>
             </div>
         </div>
     </section>
@@ -525,3 +541,70 @@
 </body>
 
 </html>
+
+
+<!-- 
+<section class="price_area p_120 text-center" style="background-color: #F1EDE2">
+    <div class="container">
+        
+      <div class="main_title">
+      </div>
+        <div class="price_inner row">
+            <div class="col-md-6" style="margin-bottom: 20px;">
+                <div class="price_item">
+                <div class="price_head">
+                    <h3>Increase Sales</h3>
+                </div>
+                <div class="price_body" style="padding: 30px 10px;">
+                        <h4 style="color:#5c5c5c; font-weight: normal">
+                       Draw eco-conscious customers to your apparel brand who are invested in ethical and sustainable clothing
+                        </h4>
+                </div>
+                </div>
+            </div> 
+            <div class="col-md-6" style="margin-bottom: 20px">
+                <div class="price_item" >
+                <div class="price_head">
+                    <h3>Inventory Management</h3>
+                </div>
+                <div class="price_body" style="padding: 30px 10px;">
+                    <h4 style="color:#5c5c5c; font-weight: normal">
+                        Products sold on our marketplace uses the same inventory as your online store, no need to split your inventory. 
+                     </h4>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" style="margin-bottom: 20px" >
+            <div class="price_item">
+                <div class="price_head">
+                <h3>Higher Conversions</h3>
+                </div>
+                <div class="price_body" style="padding: 30px 10px;">
+                    <h4 style="color:#5c5c5c; font-weight: normal">
+                        Our advancements in providing a more personalized shopping experience through machine learning, allow for higher conversions for your brand
+
+                    </h4>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-6" style="margin-bottom: 20px;">
+                <div class="price_item">
+                    <div class="price_head">
+                    <h3>Easy Integration </h3>
+                    </div>
+                    <div class="price_body" style="padding: 30px 10px;">
+                        <h4 style="color:#5c5c5c; font-weight: normal">
+                        We partnered with Shopify to allow for an easy integration of our marketplace with your store. The whole app can be setup in under 30 minutes on the Shopify admin.
+                    </h4>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+  </section> -->
+  <!--================End Why ChangeRoom Area =================-->

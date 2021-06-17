@@ -259,6 +259,9 @@
 	.top_menu {
 		display: none;
 	}
+	.cards-1 .card{
+		margin-bottom: 0;
+	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
@@ -277,9 +280,9 @@
 	.blog_banner .banner_inner .blog_b_text {
 		margin-top: 0px;
 	}
-	.home_banner_area .banner_inner .banner_content img{
+	/* .home_banner_area .banner_inner .banner_content img{
 		display: none;
-	}
+	} */
 	.home_banner_area .banner_inner .banner_content h5 {
 		margin-top: 0px;
 	}
