@@ -187,12 +187,36 @@
 	.left_side_text {
 		margin-bottom: 50px;
 	}
+	#values_align{
+		text-align: center;
+		margin-right: 0;
+	}
+	#valuesText{
+		text-align: center;
+		width: 100%;
+	}
 	.price_item {
 		max-width: 360px;
 		margin: 0px auto 30px; 
 	}
 	.price_inner{
 		margin-bottom: -30px;
+	}
+	#valuesPhone{
+		justify-content: center;
+    align-items: center;
+    display: flex;
+	}
+	#storyText{
+		text-align: center;
+		width: 100%;
+	}
+	.teamDiv{
+		flex-direction: column;
+	}
+	.profileImg{
+    width: 50%;
+    margin-bottom: 10px;
 	}
 }
 @media (max-width:767px){

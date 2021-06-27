@@ -4192,6 +4192,10 @@ h6 {
     display: inline-block;
     text-align: left;
 }
+.profileImg{
+    width: 80%;
+    margin-bottom: 10px;
+}
 .badges{
     width: 90px;
     height: 90px;
@@ -4200,6 +4204,12 @@ h6 {
 
 .price_item .price_footer .main_btn {
     padding: 0px 45px;
+}
+.teamDiv{
+    display: flex;
+}
+.problem{
+    color: white !important;
 }
 
 /* .price_item:hover .price_head {
